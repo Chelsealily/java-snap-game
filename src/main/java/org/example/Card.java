@@ -3,13 +3,13 @@ package org.example;
 public class Card {
 
     // String suit. Uses the uni-codes for {heart, club, diamond, spade}
-    private String suit;
+    private final String suit;
 
     // String symbol {2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A }
-    private String symbol;
+    private final String symbol;
 
     // int value {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}
-    private int value;
+    private final int value;
 
     // constructor
     public Card(String suit, String symbol, int value) {
@@ -32,9 +32,8 @@ public class Card {
     }
 
     // a toString method to describe the class
-
     public String toString() {
-        return "[" + this.symbol + this.suit + "]";
+        return "[" + this.symbol + " " + this.suit + "]";
     }
 
 }
