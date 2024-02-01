@@ -7,9 +7,9 @@ import static java.lang.CharSequence.compare;
 
 public class CardGame {
 
-    private final String[] suit = new String[]{"\u2665", "\u2660", "\u2663", "\u2666"};
-    private final String[] symbol = new String[]{"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-    private final int[] value = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+    private final static String[] suit = new String[]{"\u2665", "\u2660", "\u2663", "\u2666"};
+    private final static String[] symbol = new String[]{"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
+    private final static int[] value = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 
     // deckOfCards array contains all 52 cards when the game is constructed
     private static final ArrayList<Card> deckOfCards = new ArrayList<>();
@@ -33,7 +33,7 @@ public class CardGame {
     // dealCard takes the first card from the deck and returns it
     public static Card dealCard() {
         Card dealtCard = deckOfCards.remove(0);
-        System.out.println("Dealt card: " + dealtCard);
+        System.out.println("your card: " + dealtCard);
         return dealtCard;
     }
 
@@ -55,7 +55,7 @@ public class CardGame {
         return deckOfCards;
     }
 
-    //remember to remove the statics on methods above when I delete the below ->
+    /*remember to remove the statics on methods above when I delete the below ->
     public static void main(String[] args) {
         CardGame game = new CardGame();
         System.out.println(deckOfCards);
@@ -66,7 +66,7 @@ public class CardGame {
         System.out.println(deckOfCards);
         shuffleDeck();
         System.out.println(deckOfCards);
-    }
+    }*/
 
 }
 
