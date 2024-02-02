@@ -33,7 +33,7 @@ public class CardGame {
     // dealCard takes the first card from the deck and returns it
     public static Card dealCard() {
         Card dealtCard = deckOfCards.remove(0);
-        System.out.println("card: " + dealtCard);
+        System.out.println(" > " + dealtCard+ " < \n");
         return dealtCard;
     }
 
