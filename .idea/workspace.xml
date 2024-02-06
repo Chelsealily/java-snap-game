@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3c3634-1aa9-4efb-99f1-29ade16ecfd4" name="Changes" comment="stage 3 complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+    <list default="true" id="dd3c3634-1aa9-4efb-99f1-29ade16ecfd4" name="Changes" comment="stage 4 functionality - timer added but buggy-need to fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706889099271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stage 4 functionality started - need to work out timer">
+      <option name="closed" value="true" />
+      <created>1706892951618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706892951618</updated>
+    </task>
+    <task id="LOCAL-00007" summary="stage 4 functionality - timer added but buggy-need to fix">
+      <option name="closed" value="true" />
+      <created>1707234617955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707234617955</updated>
+    </task>
+    <task id="LOCAL-00008" summary="stage 4 functionality - timer added but buggy-need to fix">
+      <option name="closed" value="true" />
+      <created>1707235095468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707235095469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +200,8 @@
     <MESSAGE value="stage 2 complete" />
     <MESSAGE value="stage 3 almost complete" />
     <MESSAGE value="stage 3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="stage 3 complete" />
+    <MESSAGE value="stage 4 functionality started - need to work out timer" />
+    <MESSAGE value="stage 4 functionality - timer added but buggy-need to fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage 4 functionality - timer added but buggy-need to fix" />
   </component>
 </project>
