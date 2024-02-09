@@ -38,35 +38,21 @@ public class CardGame {
     }
 
     //sort the deck in number order (e.g. 2222233334444) and return it
-    public static ArrayList<Card> sortDeckInNumberOrder() {
+    public ArrayList<Card> sortDeckInNumberOrder() {
         deckOfCards.sort((a, b) -> compare(a.getSymbol(), b.getSymbol()));
         return deckOfCards;
     }
 
     // sort the deck into suit order
-    public static ArrayList<Card> sortDeckIntoSuits() {
+    public ArrayList<Card> sortDeckIntoSuits() {
         deckOfCards.sort((a, b) -> compare(a.getSuit(), b.getSuit()));
         return deckOfCards;
     }
 
     // shuffleDeck shuffles and randomizes the order of the cards
-    public static ArrayList<Card> shuffleDeck() {
+    public void shuffleDeck() {
         Collections.shuffle(deckOfCards);
-        return deckOfCards;
     }
-
-    /*remember to remove the statics on methods above when I delete the below ->
-    public static void main(String[] args) {
-        CardGame game = new CardGame();
-        System.out.println(deckOfCards);
-        dealCard();
-        sortDeckInNumberOrder();
-        System.out.println(deckOfCards);
-        sortDeckIntoSuits();
-        System.out.println(deckOfCards);
-        shuffleDeck();
-        System.out.println(deckOfCards);
-    }*/
 
 }
 

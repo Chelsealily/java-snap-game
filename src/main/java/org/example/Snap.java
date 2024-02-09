@@ -5,21 +5,15 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Snap extends CardGame{
-    private static final Scanner scanner = new Scanner(System.in);
-
     // 2 seconds timer constant
     private static final int SNAP_TIMER_DELAY = 2000;
-
-    // snapOppurtunity is false by default then true when snap has occurred
-    private static boolean snapOpportunity;
+    private static final Scanner scanner = new Scanner(System.in);
     private static boolean timerExpired;
 
-    // ensures that when a snap game begins snapOppurtunity is false and deck is shuffled
+    // ensures that when a snap game begins deck is shuffled
     public Snap() {
         super();
-        snapOpportunity=false;
         shuffleDeck();
-
     }
 
     public static void playSnap() {
@@ -47,7 +41,6 @@ public class Snap extends CardGame{
             Card currentCard = dealCard();
 
             if ((previousCard !=null ) && currentCard.getSymbol().equals(previousCard.getSymbol())) {
-                snapOpportunity=true;
                 System.out.println("> * type [SNAP] in 2 seconds to win! * <");
 
                 // Start or restart the timer
@@ -57,8 +50,9 @@ public class Snap extends CardGame{
                 timerTask = new TimerTask() {
                     @Override
                     public void run() {
-                        System.out.println("Times up. BAD LUCK- WHOMP WHOMP - try again o_O \n \n");
                         timerExpired = true;
+                        System.out.println("Times up. BAD LUCK- WHOMP WHOMP - try again o_O \n \n");
+                        timerExpired=false;
                     }
                 }; timer.schedule(timerTask, SNAP_TIMER_DELAY);
 
@@ -77,9 +71,8 @@ public class Snap extends CardGame{
         System.out.println("No more cards in the deck. Game over!");
     }
 
-
     public static void main(String[] args) {
-        Snap snapGame = new Snap();
+        Snap snap = new Snap();
         playSnap();
     }
 
