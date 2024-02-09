@@ -27,15 +27,16 @@ The above code is what I used to check for a SNAP so if the previous card is not
 <h2>Project Previews</h2>
 
 <b>Start of Game ></b>
-<br>
+<br><img width="408" alt="Screenshot 2024-02-09 at 21 22 39" src="https://github.com/Chelsealily/java-snap-game/assets/148104000/d96d2627-2ef8-45e5-b51a-a41ecf81cf2b">
 <br>
 <b>Mid Game ></b>
-<br>
 
+<br>
+<img width="395" alt="Screenshot 2024-02-09 at 21 23 08" src="https://github.com/Chelsealily/java-snap-game/assets/148104000/ff6a860b-8a4a-44e9-88b9-8e09e1c68cdb">
 <br>
 <b>End of Game ></b>
 <br>
-
+<img width="325" alt="Screenshot 2024-02-09 at 21 23 38" src="https://github.com/Chelsealily/java-snap-game/assets/148104000/3802c741-d620-406b-8492-0aaaec841b19">
 
 
 
